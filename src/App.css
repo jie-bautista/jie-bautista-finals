@@ -1,38 +1,20 @@
-.App {
+.Home {
   text-align: center;
+  background: url("https://img.guildedcdn.com/ContentMediaGenericFiles/3aa5be258660df8749f4560e40fb1af2-Full.webp?w=1977&h=660"), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%) no-repeat fixed;
+  background-position: center top;
+  padding: 0 25px;
+  height: 190vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-top {
+  color: #c64f3d;
+  text-shadow: 1px 1px 2px #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+CardActionArea {
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+CardMedia:hover {
+  transform: scale(1.2);
 }
